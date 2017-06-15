@@ -72,10 +72,20 @@ namespace quiz
                 "Błyskawica",
                 "Nimbus 2000",
                 3,
+                UtworzPytanie7);
+        }
+
+        public static PytanieModel UtworzPytanie7()
+        {
+            return UtworzPytanie(
+                "Jakie zwierzę było w herbie Hufflepuff?",
+                "Szop",
+                "Borsuk",
+                "Skunks",
+                2,
                 null,
                 czyKoniec: true);
         }
-
         private static PytanieModel UtworzPytanie(
             string tekst,
             string odp1,
