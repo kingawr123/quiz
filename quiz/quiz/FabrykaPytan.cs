@@ -94,7 +94,7 @@ namespace quiz
                 "Nora",
                 "Muszelka",
                 "Dziupla",
-                2,
+                1,
                 null,
                 czyKoniec: true);
         }
