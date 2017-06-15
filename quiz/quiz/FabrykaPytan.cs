@@ -83,9 +83,22 @@ namespace quiz
                 "Borsuk",
                 "Skunks",
                 2,
+                UtworzPytanie8,
+                czyKoniec: false);
+        }
+
+        public static PytanieModel UtworzPytanie8()
+        {
+            return UtworzPytanie(
+                "Jak nazywał się dom Rona?",
+                "Nora",
+                "Muszelka",
+                "Dziupla",
+                1,
                 null,
                 czyKoniec: true);
         }
+
         private static PytanieModel UtworzPytanie(
             string tekst,
             string odp1,
