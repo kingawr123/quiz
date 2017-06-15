@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="quiz.KoniecQuizu">
+
+    <StackLayout VerticalOptions="Center" 
+                 HorizontalOptions="Center">
+        <Label Text="Koniec quizu" 
+               HorizontalOptions="Center"
+               TextColor="Black"
+               FontSize="Large"/>
+        <Label x:Name="LiczbaPunktow" HorizontalOptions="Center"/>
+        <Button Text="Zagraj jeszcze raz" 
+                TextColor="Red"
+                Clicked="Button_Clicked" >
+        </Button>
+        <Label Text="Autor: Kinga Wrona"
+               HorizontalOptions="Center"></Label>
+    </StackLayout>
+</ContentPage>

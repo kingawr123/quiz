@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:quiz"
+             x:Class="quiz.MainPage">
+
+    <StackLayout VerticalOptions="Center" 
+                 HorizontalOptions="Center">
+	    <Label Text="Witamy w quizie o Harrym Potterze!" 
+               HorizontalOptions="Center"
+               TextColor="Black"/>
+        <Button Text="Rozpocznij Quiz"
+                TextColor="DarkRed" 
+                FontSize="Large" 
+                Clicked="Button_Clicked"/>
+        <Label Text="Autor: Kinga Wrona"
+               HorizontalOptions="Center"></Label>
+    </StackLayout>
+</ContentPage>
